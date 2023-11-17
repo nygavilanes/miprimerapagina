@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/879fe7460b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="styles.css">
+    <title>mi primera web</title>
+    
+</head>
+
+<body>
+    <div class="container-principal">
+        <header id="encabezado">
+            <a class="corazon" href="index.html"><i class="fa-solid fa-heart"></i></a>
+            <nav>
+
+                <input type="checkbox" id="check"/>
+                <label for="check" class="checkbtn">
+                  <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">acerca de mi</a></li>
+                    <li><a href="#">trabajos</a></li>
+                    <li><a href="#">servicios</a></li>
+                    <li><a href="#">contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>acerca de mi</h2>
+                    <p>bienvenido a mi web</p>
+                    <p>me llamo Yadira, naci en el municipio de Sapuyes Nariño, vivo en el municipio de Cumbal, me gusta mucho la comida de mar y salir a conocer pueblitos y paisajes de nuestro bello departamento, ademas me gusta mucho escuchar musica 
+
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <img class="img-persona" src="img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg" alt="imagen-portada">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img class="img-paisaje" src="img/tj-holowaychuk-1EYMue_AwDw-unsplash.jpg" alt="">
+            </section>
+
+            <section class="container-tarjetas">
+                <div class="container-img">
+                    <img class="item-cards-img" src="./img/imagen 1.jpg" alt="">
+                    <p>La Laguna de la Cocha, clasificado y denominado como uno de los humedales en Colombia de importancia internacional es un lugar hermoso donde se respira paz, tranquilidad y una sensación de libertad incomparables. Además, es la segunda más grande de todas las lagunas en Colombia, Ubicada en el departamento de Nariño sur occidente de Colombia</p>
+
+                </div> 
+
+                <div class="container-img">
+                    <img class="item-cards-img" src="./img/imagen 2.jpg" alt="">
+                    <p>Este hermoso templo es una de las maravillas arquitectónicas  más apreciadas en Colombia, su construcción sobresale entre los riscos de la cordillera de los andes, lo que hace de este un mango lugar para apreciar la cultura y disfrutar del turismo religioso. El santuario esta ubicado a 7km de la ciudad de Ipiales y a 11km del punte de Rumichaca zona fronteriza, el santuario es una de las 23 iglesias mas hermosas del mundo segun el diario Britanico The Telegraph</p>
+
+                </div> 
+
+                <div class="container-img">
+                    <img class="item-cards-img1" src="./img/imagen 3.jpg" alt="">
+                    <p>La laguna de Cumbal, también llamada laguna de La Bolsa, está ubicada en la falda del volcán Cumbal,Esta laguna se caracteriza por la coloración gris de sus aguas, la temperatura muy baja y la ausencia de oleaje, circundada por vistosas colinas y pequeñas llanuras tapizadas de pastos naturales y de la vegetación propia de los páramos, Su valor natural no sólo está en la flora que la conforma, como los apreciados frailejones, encenillos y cojines, sino también por ser hábitat de fauna destacable a nivel nacional, como los son las águilas, cusumbos, venados y guaguas</p>
+
+                </div> 
+
+            </section>
+
+
+        </main>
+      
+    </div>
+
+    <footer class="form-header">
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario" id="form"><div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+          </div><div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+            />
+          </div><div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div><div class="form-row">
+            <button>Enviar</button>
+          </div></form>
+
+      </footer>
+           
+    <footer>autor: Yadira Gavilanes</footer>
+
+    <script src="script.js" defer ></script>
+</body>
+
+</html>

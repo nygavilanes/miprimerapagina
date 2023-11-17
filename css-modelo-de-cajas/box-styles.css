@@ -1,0 +1,22 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{ 
+    background-color: #dde0e3;
+    padding: 50px;
+    margin: 50px;
+}
+
+p,div{
+    background-color: #dde0e3;
+}
+
+em, 
+strong, 
+span{
+    background-color: #b2d6ff;
+    
+}
